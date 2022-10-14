@@ -16,7 +16,7 @@ import { FocusHistory } from './src/features/FocusHistory';
 export default function App() {  
   const [currentSubject, setCurrentSubject] = useState();  
   const [history, setHistory] = useState([]);
-  /* adlfkjalkdfjakldfjkljkajdf*/
+  
   return (
     <SafeAreaView style={styles.container}>
       {!currentSubject ? (
